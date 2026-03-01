@@ -7,47 +7,39 @@
         },
         {
             "source": "/",
-            "destination": "/public/index.html"
+            "destination": "/index.html"
         },
         {
             "source": "/projects",
-            "destination": "/public/projects.html"
+            "destination": "/projects.html"
         },
         {
             "source": "/about",
-            "destination": "/public/about.html"
+            "destination": "/about.html"
         },
         {
             "source": "/contact",
-            "destination": "/public/contact.html"
+            "destination": "/contact.html"
         },
         {
             "source": "/nityadham",
-            "destination": "/public/nityadham.html"
+            "destination": "/nityadham.html"
         },
         {
             "source": "/prakriti",
-            "destination": "/public/prakriti.html"
+            "destination": "/prakriti.html"
         },
         {
             "source": "/nest",
-            "destination": "/public/nest.html"
+            "destination": "/nest.html"
         },
         {
             "source": "/township",
-            "destination": "/public/township.html"
+            "destination": "/township.html"
         },
         {
             "source": "/green-valley",
-            "destination": "/public/green-valley.html"
-        },
-        {
-            "source": "/css/(.*)",
-            "destination": "/public/css/$1"
-        },
-        {
-            "source": "/js/(.*)",
-            "destination": "/public/js/$1"
+            "destination": "/green-valley.html"
         }
     ],
     "headers": [
