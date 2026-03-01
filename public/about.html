@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Sai Radha Developers</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container nav-container">
+            <a href="/" class="logo">
+                <img src="https://sairadhadevelopers.in/wp-content/uploads/2022/05/Logo-4-1409x359.png"
+                    alt="Sai Radha Developers Logo">
+            </a>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links" style="align-items: center;">
+                <li><a href="/">Home</a></li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/about" class="active">About Us</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="/contact" class="btn btn-primary"
+                        style="padding: 10px 20px; font-weight: 600; border-radius: 0;">ENQUIRE NOW</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+        <div class="container">
+            <h1>About Us</h1>
+            <p style="margin-top: 10px; font-size: 1.1rem;">Building Dreams, Creating Sweet Homes Since 1987.</p>
+        </div>
+    </section>
+
+    <!-- About Details -->
+    <section class="section">
+        <div class="container about-grid">
+            <div class="about-image">
+                <img src="https://sairadhadevelopers.in/wp-content/uploads/2022/12/7.jpg" alt="Sai Radha Interiors">
+            </div>
+            <div class="about-text">
+                <h2 class="section-title">Our Story</h2>
+                <h3>A Legacy of Trust and Quality</h3>
+                <p>Established in 1987, Sai Radha Developers has been at the forefront of the real estate evolution in
+                    Udupi and Manipal. For over three decades, we have dedicated ourselves to transforming the skyline
+                    while ensuring the highest standards of living for our customers.</p>
+                <p>Under the visionary leadership of our Managing Director, <strong>Manohar S. Shetty</strong>, the
+                    company has successfully completed numerous prestigious projects. Our philosophy is simple: we don't
+                    just build apartments; we create 'Sweet Homes' where families can grow and thrive for generations.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-light">
+        <div class="container about-grid">
+            <div class="about-text" style="order: 2;">
+                <h2 class="section-title">Why Choose Us?</h2>
+                <h3>Modern Architecture & Premium Amenities</h3>
+                <p>Every Sai Radha project is a blend of modern architectural brilliance and practical design. We select
+                    prime locations carefully to ensure convenience, connectivity, and tranquility for our residents.
+                </p>
+                <p>From dedicated customer support to seamless post-handover services, we walk alongside our clients
+                    throughout their home-buying journey, ensuring absolute transparency and peace of mind.</p>
+            </div>
+            <div class="about-image" style="order: 1;">
+                <img src="https://sairadhadevelopers.in/wp-content/uploads/2023/02/comfortable-pillow-sofa-decoration-outdoor-balcony-1.jpg"
+                    alt="Balcony View">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="https://sairadhadevelopers.in/wp-content/uploads/2022/05/Logo-4-1409x359.png" alt="Logo"
+                        style="height: 40px; margin-bottom: 20px; filter: brightness(0) invert(1);">
+                    <p>Sai Radha Developers is synonymous with high-quality real estate projects, building 'Sweet Homes'
+                        in Udupi and Manipal since 1987.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/projects">Our Projects</a></li>
+                        <li><a href="/about">About Us</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 3rd Floor, C.J. Complex, K.M. Marg, Udupi Dist. Karnataka
+                    </p>
+                    <p><i class="fas fa-phone-alt"></i> 0820-2529241, 0820-2524342</p>
+                    <p><i class="fas fa-envelope"></i> sairadhadevelopers@yahoo.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 1987-2025 Sai Radha Developers. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Elements -->
+    <a href="https://wa.me/918202529241" target="_blank" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <div class="scroll-top"><i class="fas fa-chevron-up"></i></div>
+
+    <!-- Chatbot -->
+    <button id="chatBtn" class="chat-btn">
+        <i class="fas fa-comment-dots"></i>
+        <span class="chat-badge" id="chatBadge">1</span>
+    </button>
+    <div id="chatWindow" class="chat-window">
+        <div class="chat-header">
+            <h4><i class="fas fa-robot"></i> Support Assistant</h4>
+            <button class="chat-close" id="closeChat">&times;</button>
+        </div>
+        <div class="chat-body" id="chatBody"></div>
+        <div class="chat-footer">
+            <input type="text" id="chatInput" class="chat-input" placeholder="Type your message...">
+            <button id="sendChat" class="chat-send"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+
+    <script src="/js/main.js"></script>
+</body>
+
+</html>

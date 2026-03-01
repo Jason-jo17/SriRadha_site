@@ -1,0 +1,85 @@
+{
+    "version": 2,
+    "rewrites": [
+        {
+            "source": "/api/(.*)",
+            "destination": "/api/$1"
+        },
+        {
+            "source": "/",
+            "destination": "/public/index.html"
+        },
+        {
+            "source": "/projects",
+            "destination": "/public/projects.html"
+        },
+        {
+            "source": "/about",
+            "destination": "/public/about.html"
+        },
+        {
+            "source": "/contact",
+            "destination": "/public/contact.html"
+        },
+        {
+            "source": "/nityadham",
+            "destination": "/public/nityadham.html"
+        },
+        {
+            "source": "/prakriti",
+            "destination": "/public/prakriti.html"
+        },
+        {
+            "source": "/nest",
+            "destination": "/public/nest.html"
+        },
+        {
+            "source": "/township",
+            "destination": "/public/township.html"
+        },
+        {
+            "source": "/green-valley",
+            "destination": "/public/green-valley.html"
+        },
+        {
+            "source": "/css/(.*)",
+            "destination": "/public/css/$1"
+        },
+        {
+            "source": "/js/(.*)",
+            "destination": "/public/js/$1"
+        }
+    ],
+    "headers": [
+        {
+            "source": "/(.*)",
+            "headers": [
+                {
+                    "key": "X-Frame-Options",
+                    "value": "DENY"
+                },
+                {
+                    "key": "X-Content-Type-Options",
+                    "value": "nosniff"
+                }
+            ]
+        },
+        {
+            "source": "/api/(.*)",
+            "headers": [
+                {
+                    "key": "Access-Control-Allow-Origin",
+                    "value": "*"
+                },
+                {
+                    "key": "Access-Control-Allow-Methods",
+                    "value": "GET,POST,OPTIONS"
+                },
+                {
+                    "key": "Access-Control-Allow-Headers",
+                    "value": "Content-Type"
+                }
+            ]
+        }
+    ]
+}
